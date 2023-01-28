@@ -1,0 +1,18 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+download: bash ./scripts/get_coco.sh
+
+
+train: ./flaw/images/train  
+val: ./flaw/images/val  
+#test: D:/AI/AI/val/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+
+
+# number of classes
+nc: 2
+
+# class names
+#names: ['can','leaf','branch','grass','bottle','milk_box','plastic_bag','plastic_box','glass_bottle','bad_fruit','ball']
+names: ['flaw1','flaw2']
